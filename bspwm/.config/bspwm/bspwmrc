@@ -13,13 +13,12 @@ bspc config gapless_monocle      true
 
 bspc rule -a Firefox desktop='^1'
 bspc rule -a discord desktop='^2'
-bspc rule -a st-256color desktop='^3'
+bspc rule -a urxvt desktop='^3'
 
 feh --bg-scale ~/pillars_of_creation.jpg
 redshift &
-picom -b
 polybar -r example &
 
-firefox-bin &
+firefox &
 discord &
-st &
+urxvt &
