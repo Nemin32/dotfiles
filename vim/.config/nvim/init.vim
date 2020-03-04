@@ -1,4 +1,5 @@
 set mouse=a
+set number
 
 colo desert
 hi clear SpellBad
@@ -33,6 +34,7 @@ noremap k gk
 nnoremap Q ma{gq}`a
 inoremap jj <esc>
 map <SPACE> za
+tnoremap <Esc> <C-\><C-n>
 
 nnoremap <CR> :noh<CR><CR>
 

@@ -58,7 +58,7 @@ font-2 = siji:pixelsize=10;1
 
 modules-left = bspwm
 modules-center = mpd
-modules-right = filesystem alsa pulseaudio memory cpu eth temperature date powermenu
+modules-right = filesystem alsa pulseaudio memory cpu temperature date powermenu
 
 tray-position = right
 tray-padding = 2
@@ -365,6 +365,8 @@ animation-discharging-framerate = 750
 type = internal/temperature
 thermal-zone = 0
 warn-temperature = 60
+
+hwmon-path = /sys/devices/platform/nct6775.2592/hwmon/hwmon1/temp2_input
 
 format = <ramp> <label>
 format-underline = #f50a4d
