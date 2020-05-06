@@ -7,11 +7,11 @@ super + shift + s
 
 # terminal emulator
 super + Return
-	urxvt
+	alacritty
 
 # program launcher
 super + @space
-	dmenu_run
+	dmenu_run -fn "Nimbus Mono"
 
 # make sxhkd reload its configuration files:
 super + Escape

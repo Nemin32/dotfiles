@@ -1,5 +1,7 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhistcnt =6
+let g:netrw_dirhistcnt =8
+let g:netrw_dirhist_8='/home/nemin/Nemin32.github.io/assets/js'
+let g:netrw_dirhist_7='/home/nemin/Charon/src'
 let g:netrw_dirhist_6='/home/nemin/.themes'
 let g:netrw_dirhist_5='/home/nemin/olvaso/posztok/support leblanc'
 let g:netrw_dirhist_4='/home/nemin/dotfiles/sxhkd/.config/sxhkd'

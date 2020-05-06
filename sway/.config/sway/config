@@ -47,7 +47,7 @@ bindsym $mod+Return exec alacritty
 bindsym $mod+w kill
 
 # start dmenu (a program launcher)
-bindsym $mod+Space exec dmenu_run
+# bindsym $mod+Space exec dmenu_run
 # There also is the (new) i3-dmenu-desktop which only displays applications
 # shipping a .desktop file. It is a wrapper around dmenu, so you need that
 # installed.
@@ -185,3 +185,5 @@ exec firefox
 exec discord
 
 input * xkb_layout "hu"
+
+bindsym $mod+space exec wofi --show run
