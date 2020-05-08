@@ -16,9 +16,11 @@ bspc rule -a firefox desktop='^1'
 bspc rule -a discord desktop='^2'
 bspc rule -a URxvt desktop='^3'
 
-feh --bg-scale ~/bg.jpg
+feh --bg-scale ~/bg.png
 redshift &
 polybar -r example &
+
+picom &
 
 firefox &
 discord &
