@@ -5,6 +5,9 @@
 super + shift + s
   sh -c 'maim -su | xclip -sel clip -t image/png'
 
+super + shift + a
+  sh -c 'maim -su "/home/nemin/Nemin32.github.io/imgs/molre2/$(date +%s).png"'
+
 # terminal emulator
 super + Return
 	alacritty

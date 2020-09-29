@@ -1,5 +1,8 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhistcnt =8
+let g:netrw_dirhistcnt =1
+let g:netrw_dirhist_1='/home/nemin/alive_aur/src/relive/Source/AliveLibCommon'
+let g:netrw_dirhist_0='/home/nemin/openbsd-www/src/scss'
+let g:netrw_dirhist_9='/home/nemin/openbsd-www/build'
 let g:netrw_dirhist_8='/home/nemin/Nemin32.github.io/assets/js'
 let g:netrw_dirhist_7='/home/nemin/Charon/src'
 let g:netrw_dirhist_6='/home/nemin/.themes'
@@ -7,4 +10,3 @@ let g:netrw_dirhist_5='/home/nemin/olvaso/posztok/support leblanc'
 let g:netrw_dirhist_4='/home/nemin/dotfiles/sxhkd/.config/sxhkd'
 let g:netrw_dirhist_3='/home/nemin/dotfiles/sxhkd/.config'
 let g:netrw_dirhist_2='/home/nemin/dotfiles/sxhkd'
-let g:netrw_dirhist_1='/home/nemin/dotfiles/bspwm/.config/bspwm'
